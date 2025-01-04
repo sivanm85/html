@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>
+Day 1 - HTML Structure
+</title>
+</head>
+
+<body>
+    <a href="../index.html">Home</a>
+HTML basic
+Easy steps to create web page.
+<p style="text-align: right;">View source code: <strong>Ctrl + U</strong></p>
+</body>
+
+</html>
