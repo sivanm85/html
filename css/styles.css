@@ -1,0 +1,16 @@
+.box {
+  width: 300px;
+  padding: 50px;
+  margin: 20px;
+  border: 15px solid green;
+  background-color: lightgrey;
+}
+
+.box-border-box {
+  width: 300px;
+  padding: 50px;
+  margin: 20px;
+  border: 15px solid green;
+  background-color: lightcoral;
+  box-sizing: border-box;
+}
