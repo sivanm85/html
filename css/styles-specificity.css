@@ -1,0 +1,49 @@
+/* Type selector (Specificity: 1) */
+p {
+  color: blue;
+}
+/* Class selector (Specificity: 10) */
+.text {
+  color: green;
+}
+p[draggable] {
+  color: blue;
+}
+/* ID selector (Specificity: 100) */
+#unique-text {
+  color: brown;
+}
+/* Inline styles (Specificity: 1000) - Higher than all CSS selectors */
+/* <p style="color: purple;">This has highest specificity</p> */
+/* !important (Overrides all other styles) */
+.override {
+  color: orange !important;
+}
+/* Type selector applies to all <h1> elements */
+h1 {
+  font-size: 24px;
+  color: navy;
+}
+
+/* Type selector for <button> */
+button {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+.special {
+  color: black !important; /* Even if another selector tries to change it, this will apply */
+}
+/* parent to child at one level */
+div > p {
+  color: chocolate;
+}
+/* to child */
+.static-box > p {
+  color: crimson;
+}
+/* Chaining selector */
+p#unique-text.text {
+  background-color: yellowgreen;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Example</title>
+    <link rel="stylesheet" href="../css/styles-specificity.css" />
+  </head>
+  <body>
+    <h1>CSS Example</h1>
+
+    <!-- Positioning -->
+    <div class="container">
+      <div class="box static-box">
+        <p>This text is the content of the box.</p>
+        Static
+      </div>
+      <div class="box relative-box">Relative</div>
+      <div class="box absolute-box">Absolute</div>
+      <div class="box fixed-box">Fixed</div>
+      <div class="box sticky-box">Sticky</div>
+    </div>
+
+    <!-- Specificity -->
+    <p class="text" id="unique-text" draggable="drag">
+      This text has multiple styles applied.
+    </p>
+
+    <!-- !important Example -->
+    <p class="special">This text is black due to !important.</p>
+
+    <button>Click Me</button>
+  </body>
+</html>
