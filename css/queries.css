@@ -1,0 +1,83 @@
+.rect1 {
+  width: 25%;
+  height: 200px;
+  background-color: darkcyan;
+}
+.rect2 {
+  width: 25%;
+  height: 200px;
+  background-color: blueviolet;
+}
+.rect3 {
+  width: 25%;
+  height: 200px;
+  background-color: cornflowerblue;
+}
+.rect4 {
+  width: 25%;
+  height: 200px;
+  background-color: cadetblue;
+}
+div {
+  float: left;
+}
+/* Media queries for mobile devices : 319px - 480px */
+@media (min-width: 320px) and (max-width: 480px) {
+  .rect1 {
+    background: rgba(0, 255, 0, 0.2);
+  }
+  .rect2 {
+    background: rgba(0, 255, 0, 0.4);
+  }
+  .rect3 {
+    background: rgba(0, 255, 0, 0.6);
+  }
+  .rect4 {
+    background: rgba(0, 255, 0, 0.8);
+  }
+}
+/* Media queries for ipad and Tablets devices : 481px - 1200px */
+@media (min-width: 481px) and (max-width: 1200px) {
+  .rect1 {
+    background: rgba(255, 0, 0, 0.2);
+  }
+  .rect2 {
+    background: rgba(255, 0, 0, 0.4);
+  }
+  .rect3 {
+    background: rgba(255, 0, 0, 0.6);
+  }
+  .rect4 {
+    background: rgba(255, 0, 0, 0.8);
+  }
+}
+/* Media queries for Laptop devices : 1201px - 1600px */
+@media (min-width: 1201px) and (max-width: 1600px) {
+  .rect1 {
+    background: rgba(0, 0, 255, 0.2);
+  }
+  .rect2 {
+    background: rgba(0, 0, 255, 0.4);
+  }
+  .rect3 {
+    background: rgba(0, 0, 255, 0.6);
+  }
+  .rect4 {
+    background: rgba(0, 0, 255, 0.8);
+  }
+}
+/* Media queries for Desktops devices : 1600px and more */
+@media (min-width: 1601px) {
+  .rect1 {
+    background: rgba(209, 26, 199, 0.2);
+  }
+  .rect2 {
+    background: rgba(209, 26, 199, 0.4);
+  }
+  .rect3 {
+    background: rgba(209, 26, 199, 0.6);
+  }
+  .rect4 {
+    background: rgba(209, 26, 199, 0.8);
+  }
+}
