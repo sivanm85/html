@@ -1,0 +1,28 @@
+.flag {
+  width: 50%;
+  display: inline-block;
+}
+.flag img {
+  float: left;
+  margin: 0 10px;
+  border: 2px solid;
+}
+.flag2 {
+  width: 50%;
+  float: right;
+}
+.flag2 img {
+  float: right;
+  margin: 0 10px;
+  border: 2px solid;
+}
+p {
+  margin: 0 20px;
+}
+.flag3 {
+  clear: both;
+  margin: 20px 10px;
+}
+.flag3 img {
+  float: right;
+}
