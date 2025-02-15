@@ -1,0 +1,50 @@
+/* Without Flex 
+
+div {
+  display: inline-block;
+}
+.one {
+  width: 30%;
+}
+.two {
+  width: 30%;
+}
+.three {
+  width: 30%;
+}
+
+Without Flex */
+/* ======================== */
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  border: 5px solid #b71d1d;
+  height: 50vh;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.container > * {
+  flex-basis: 100px;
+}
+.violet {
+  background-color: violet;
+}
+.indgo {
+  background-color: indigo;
+}
+.brown {
+  background-color: brown;
+}
+.green {
+  background-color: green;
+}
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+.organe {
+  background-color: orange;
+}
