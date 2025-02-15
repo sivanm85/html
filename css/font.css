@@ -1,0 +1,14 @@
+html {
+  font-size: 25px;
+}
+.parent {
+  font-size: 30px;
+}
+.child {
+  color: blueviolet;
+  font-size: 1em;
+}
+.slibling {
+  color: rgb(165, 31, 96);
+  font-size: 1rem;
+}
