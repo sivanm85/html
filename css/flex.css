@@ -13,7 +13,7 @@ div {
   width: 30%;
 }
 
-Without Flex */
+With Flex */
 /* ======================== */
 .container {
   display: flex;
