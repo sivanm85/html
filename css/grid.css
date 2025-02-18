@@ -1,0 +1,57 @@
+.container {
+}
+.header {
+  display: flex;
+  justify-content: center;
+  border: 2px solid red;
+  background-color: rgb(159, 62, 51);
+}
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  border: 2px solid rgb(26, 189, 165);
+  background-color: rgb(122, 124, 31);
+}
+.section-parent {
+  display: grid;
+  height: 50vh;
+  grid-template-columns: 1fr 2fr 1fr;
+  border: 2px solid rgb(198, 211, 7);
+  background-color: blanchedalmond;
+}
+.aside-left {
+  border: 2px solid rgb(35, 170, 46);
+  background-color: rgb(80, 138, 196);
+}
+.section {
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  border: 2px solid rgb(59, 59, 148);
+  background-color: rgb(25, 153, 95);
+}
+.section-child1 {
+  border: 2px solid rgb(36, 216, 189);
+  background-color: rgb(207, 228, 41);
+}
+.section-child2 {
+  border: 2px solid rgb(140, 15, 151);
+  background-color: rgb(90, 204, 45);
+}
+.aside-right {
+  display: flex;
+  justify-content: flex-end;
+  border: 2px solid rgb(127, 113, 21);
+  background-color: rgb(223, 127, 108);
+}
+.article {
+  display: flex;
+  justify-content: center;
+  border: 2px solid rgb(29, 196, 177);
+  background-color: rgb(200, 87, 185);
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  border: 2px solid rgb(122, 21, 90);
+  background-color: rgb(84, 156, 152);
+}
