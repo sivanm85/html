@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+}
+.container > div {
+  /* flex: 2 1 auto; */
+}
+.one {
+  background-color: aqua;
+  flex: 2 1 0;
+}
+.two {
+  background-color: rgb(207, 82, 36);
+  flex: 1 1 0;
+}
+.three {
+  background-color: rgb(185, 168, 227);
+  flex: 1 1 0;
+}
+.four {
+  background-color: rgb(212, 77, 185);
+  flex: 1 1 0;
+}
