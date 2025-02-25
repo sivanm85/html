@@ -55,3 +55,9 @@
   border: 2px solid rgb(122, 21, 90);
   background-color: rgb(84, 156, 152);
 }
+.last-row {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  border: 2px solid rgb(215, 169, 201);
+  background-color: rgb(156, 218, 214);
+}
